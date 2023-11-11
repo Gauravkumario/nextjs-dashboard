@@ -1,7 +1,8 @@
 import React from "react";
+import Table from "@/app/ui/customers/table";
 
 const page = () => {
-  return <div>customers page</div>;
+  return <Table customers={[]} />;
 };
 
 export default page;
